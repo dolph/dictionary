@@ -17,9 +17,15 @@ more words than any English speaking adult would reasonably be familiar with:
     $ cat enable1.txt | wc -l
     172819
 
-The included dictionary file, `popular.txt`, is then compiled from
-[Wiktionary's word frequency lists], which are based on over 29 million words
-from English TV and movie scripts.
+`popular.txt` represents the common subset of words found in both `enable1.txt`
+and [Wiktionary's word frequency lists], which are in turn compiled by
+statistically analyzing a sample of 29 million words used in English TV and
+movie scripts.
+
+    $ cat popular.txt | wc -l
+    25322
+
+These are 25,322 words that everyone should be familiar with.
 
 [The words in the mental cupboard]: http://news.bbc.co.uk/2/hi/uk_news/magazine/8013859.stm
 [Words with Friends]: http://www.wordswithfriends.com/
