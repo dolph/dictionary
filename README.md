@@ -1,7 +1,7 @@
 List of the Most Common English Words
 =====================================
 
-The Unix dictionary contains far too many rediculous words that even Google has
+The Unix dictionary contains far too many ridiculous words that even Google has
 trouble explaining, such as `zuurveldt`, `cholecystenterorrhaphy` and `nonly`:
 
     $ cat /usr/share/dict/words | wc -l
