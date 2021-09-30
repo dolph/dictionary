@@ -6,7 +6,7 @@ by the BBC, "An ordinary person, one who has not been to university say, would
 know about 35,000 quite easily."
 
 The Unix dictionary contains far too many ridiculous words that even Google has
-trouble explaining, such as `zuurveldt`, `cholecystenterorrhaphy` and `nonly`:
+trouble explaining it, such as `zuurveldt`, `cholecystenterorrhaphy` and `nonly`:
 
     $ cat /usr/share/dict/words | wc -l
     235886
