@@ -6,13 +6,8 @@ import argparse
 
 
 def get_words(filename):
-    try:
-        fp = open(filename, 'r')
-        words = fp.readlines()
-    finally:
-        fp.close()
-
-    return set(word.strip() for word in words)
+    with open(filename, 'r') as fp:
+        return set(word.strip() for word in fp)
 
 
 if __name__ == '__main__':
@@ -25,4 +20,4 @@ if __name__ == '__main__':
     second = get_words(args.dictionaries[1])
 
     for word in sorted(first.intersection(second)):
-        print word
+        print(word)
